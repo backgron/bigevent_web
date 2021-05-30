@@ -32,6 +32,8 @@ $(function () {
                 layer.msg(res.message);
             } else {
                 layer.msg(res.message);
+                localStorage.setItem("token", res.token);
+                window.location.href = "../index.html";
             }
         });
     });
