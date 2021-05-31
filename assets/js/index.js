@@ -35,7 +35,7 @@ function getUserAjax() {
 //渲染用户头像的方法
 function readerAvatar(user) {
     let name = user.nickname || user.username;
-    $('#welcome').html('欢迎您&nbsp;&nbsp;' + name);
+    $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
     //渲染头像  $('.layui-nav-img');
     if (user.user_pic !== null) {
         $('.layui-nav-img').attr('src', res.user_pic).show();
