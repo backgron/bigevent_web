@@ -9,7 +9,7 @@ $(function () {
             //删除token
             localStorage.removeItem('token');
             //跳转页面
-            location.href = '../login.html';
+            location.href = 'login.html';
 
             layer.close(index);
         });
